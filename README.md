@@ -1,8 +1,6 @@
 # SegNet-A-Deep-Convolutional-Encoder-Decoder-Architecture-for-Image-Segmentation
 
 
-# Biomedical Image Segmentation using SegNet
-
 This project implements **SegNet**, a deep convolutional encoder–decoder architecture for pixel-wise image segmentation.
 
 The network predicts a segmentation mask by classifying each pixel into foreground or background.
