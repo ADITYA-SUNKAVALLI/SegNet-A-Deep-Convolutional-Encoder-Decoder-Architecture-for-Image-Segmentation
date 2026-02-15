@@ -62,14 +62,30 @@ images/
 masks/
 
 
-Add your dataset link here:  
-👉 ADD_DATASET_LINK
+ dataset link here:  
+👉 https://drive.google.com/drive/folders/1UDopC9FF7uGiOzr7UElgcJ1aGCQAakeG?usp=drive_link
 
 ---
 
 ## 💾 Pretrained Weights
 
 Download weights from:  
-👉 ADD_MODEL_LINK
+👉 https://drive.google.com/file/d/19bnxSR9uco-PWLIwLCc3iTq7Fb2tqU_D/view?usp=drive_link
 
-Place inside:
+⚙️ Installation
+Clone the repository
+git clone https://github.com/ADITYA-SUNKAVALLI/SegNet-A-Deep-Convolutional-Encoder-Decoder-Architecture-for-Image-Segmentation.git
+cd SegNet-A-Deep-Convolutional-Encoder-Decoder-Architecture-for-Image-Segmentation
+
+Create virtual environment (recommended)
+Windows
+python -m venv venv
+venv\Scripts\activate
+
+Linux / Mac
+python -m venv venv
+source venv/bin/activate
+
+Install dependencies
+pip install torch torchvision numpy matplotlib opencv-python tqdm
+
